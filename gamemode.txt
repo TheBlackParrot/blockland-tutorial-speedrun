@@ -1,0 +1,125 @@
+//add-ons to load
+ADDON Support_Player_Persistence
+ADDON Brick_Large_Cubes
+ADDON Brick_Arch
+ADDON Brick_V15
+ADDON Emote_Alarm
+ADDON Emote_Confusion
+ADDON Emote_Hate
+ADDON Emote_Love
+ADDON Light_Basic
+ADDON Particle_Basic
+ADDON Particle_FX_Cans
+ADDON Particle_Grass
+ADDON Particle_Player
+ADDON Particle_Tools
+ADDON Player_No_Jet
+ADDON Projectile_Radio_Wave
+ADDON Sound_Synth4
+ADDON Sound_Beeps
+ADDON Weapon_Gun
+ADDON Vehicle_Horse
+
+ADDON Print_Letters_Default
+
+ADDON Brick_Treasure_Chest
+
+ADDON Brick_Poster_8x
+ADDON Print_Poster_Tutorial
+
+ADDON Gamemode_Tutorial_Speedrun
+
+
+//music 
+MUSIC After_School_Special
+MUSIC Ambient_Deep
+MUSIC Bass_1
+MUSIC Bass_2
+MUSIC Bass_3
+MUSIC Creepy
+MUSIC Distort
+MUSIC Drums
+MUSIC Factory
+MUSIC Icy
+MUSIC Jungle
+MUSIC Peaceful
+MUSIC Piano_Bass
+MUSIC Rock
+MUSIC Stress_
+
+
+//server settings
+$Server::WelcomeMessage \c2PREPARE TO BE TUTORED.
+
+
+//environment
+$EnvGuiServer::SimpleMode 0
+$EnvGuiServer::SkyFile Add-Ons/Sky_Skylands/Skylands.dml
+$EnvGuiServer::WaterFile NONE
+$EnvGuiServer::GroundFile Add-Ons/Ground_Plate/plate.ground
+$EnvGuiServer::SunFlareTopTexture base/lighting/flare2.png
+$EnvGuiServer::SunFlareBottomTexture base/lighting/corona2.png
+$EnvGuiServer::DayOffset 
+$EnvGuiServer::DayLength 300
+$EnvGuiServer::DayCycleEnabled 0
+$EnvGuiServer::DayCycle Add-Ons/DayCycle_Default/default.daycycle
+$EnvGuiServer::SunAzimuth 214.154
+$EnvGuiServer::SunElevation 76.1538
+$EnvGuiServer::DirectLightColor 0.600000 0.600000 0.600000 1.000000
+$EnvGuiServer::AmbientLightColor 0.500000 0.500000 0.500000 1.000000
+$EnvGuiServer::ShadowColor 0.300000 0.300000 0.400000 1.000000
+$EnvGuiServer::SunFlareColor 0.588785 0.390689 0.390689 1.000000
+$EnvGuiServer::SunFlareSize 1.66667
+$EnvGuiServer::VisibleDistance 251.179
+$EnvGuiServer::FogDistance 87.1795
+$EnvGuiServer::FogHeight 
+$EnvGuiServer::FogColor 1.000000 1.000000 1.000000 1.000000
+$EnvGuiServer::WaterColor 255 255 255 128
+$EnvGuiServer::WaterHeight 5
+$EnvGuiServer::UnderWaterColor 0 0 128 128
+$EnvGuiServer::SkyColor 0.448598 0.644860 1.000000 1.000000
+$EnvGuiServer::WaterScrollX 0
+$EnvGuiServer::WaterScrollY 0
+$EnvGuiServer::GroundColor 0 128 64 255
+$EnvGuiServer::GroundScrollX 0
+$EnvGuiServer::GroundScrollY 0
+$EnvGuiServer::VignetteMultiply 0
+$EnvGuiServer::VignetteColor 0.000000 0.000000 0.000000 0.392157
+
+
+//minigame rules
+$MiniGame::Enabled 1
+$MiniGame::GameColor 0
+$MiniGame::InviteOnly 0
+$MiniGame::IncludeAllPlayersBricks 1
+$MiniGame::PlayersUseOwnBricks 0
+
+$MiniGame::Points_BreakBrick 0
+$MiniGame::Points_PlantBrick 0
+$MiniGame::Points_KillPlayer 1
+$MiniGame::Points_KillSelf	-1
+$MiniGame::Points_Die -1
+   
+$MiniGame::RespawnTime 1
+$MiniGame::VehicleRespawnTime 5
+$MiniGame::BrickRespawnTime 30
+
+$MiniGame::UseSpawnBricks 1
+$MiniGame::FallingDamage 0
+$MiniGame::WeaponDamage 0
+$MiniGame::SelfDamage 0
+$MiniGame::VehicleDamage 0
+$MiniGame::BrickDamage 1
+$MiniGame::EnableWand 0
+$MiniGame::EnableBuilding 0
+$MiniGame::EnablePainting 0
+
+$MiniGame::PlayerDataBlockName No-Jet Player
+
+$MiniGame::StartEquipName0 0
+$MiniGame::StartEquipName1 0 
+$MiniGame::StartEquipName2 0
+$MiniGame::StartEquipName3 0
+$MiniGame::StartEquipName4 0
+
+$Server::GhostLimit 32768
